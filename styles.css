@@ -1,6 +1,7 @@
 nav {
   width: 100%;
   postion: sticky;
+  background-color: none;
 }
 .navbar-brand {
   font-size: 25px;
@@ -21,7 +22,7 @@ nav a {
 
 .carousel-item{
   width:100%;
-  max-height: 500px;
+  max-height: 700px;
 }
 
 .carousel-caption {
@@ -40,6 +41,18 @@ nav a {
   margin-bottom: 50px;
 }
 
+#explore {
+  padding: 150px;
+  text-align: center;
+  display: inline-block;
+  position:relative;
+}
+
+.icon{
+    text-align: center;
+    display: inline-block;
+}
+
 h1 {
   color: white;
   text-shadow: 2px 2px 2px black;
@@ -49,7 +62,7 @@ h1 {
 
 h2 {
   color: gray;
-  text-shadow: 1px 1px 1px black;
+  /*text-shadow: 1px 1px 1px black;*/
   padding-bottom: 75px;
   padding-top: 75px;
   text-align: center;
@@ -88,6 +101,7 @@ h3 {
 
 body {
   height: 100%;
+  padding: 30px;
 }
 
 .card-block {

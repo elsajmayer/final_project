@@ -14,7 +14,7 @@ $(document).ready(function(){
 
 // Scrollspy
 $('body').scrollspy({
-  target: '#mainNav'
+  target: '#content'
 });
 
 // Email Form

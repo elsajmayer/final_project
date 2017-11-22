@@ -10,19 +10,18 @@
   <title>Out &amp; Back</title>
 </head>
 
-<body data-spy="scroll" data-target="#mainNav" id="page-top">
+<body data-spy="scroll" data-target=".navbar" id="page-top">
 
-
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+<nav id="mainNav" class="navbar fixed-top navbar-white bg-white">
   <div class="container">
     <a href="#" class="navbar-left"><img src="images/logo.png"></a>
     <ul class="nav justify-content-end">
       <li class="nav-item">
         <a class="page-scroll" href="#explore-trails">Explore the Trails </a>
       </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="http://www.patagonia.com/shop/trail-running">Gear Up</a>
-      </li> -->
+      <li class="nav-item">
+        <a href="https://www.bing.com/shop?q=trail+running+gear&FORM=SHOPTB" class="page-scroll" role="button" data-toggle="modal" data-target=".bd-example-modal-lg" id="gear">Shop Now</a>
+      </li>
       <li class="nav-item">
         <a class="page-scroll" href="#follow-us">Follow Us</a>
       </li>
@@ -30,6 +29,7 @@
   </div>
 </nav>
 
+<div id="content">
   <section id="carousel">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -120,9 +120,25 @@
 </section>
 
 <section id="explore-trails" class="explore-trails">
-
-  <h2>Explore the Trails</h2>
-
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-4 col-md-6 text-center">
+              <div class="sign">
+                  <!-- <i class="fa fa-map-signs fa-5x" aria-hidden="true"></i> -->
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+              <div class="explore">
+                  <i id="explore" class="fa fa-map-marker fa-5x" aria-hidden="true"></i>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+              <div class="compassbox">
+                  <!-- <i class="fa fa-compass fa-5x" aria-hidden="true"></i> -->
+              </div>
+          </div>
+      </div>
+  </div>
   <div class="card-deck">
   <div class="card">
     <img height=250px class="card-img-top" src="images/run_4.jpg" alt="Card image cap">
@@ -253,7 +269,7 @@
 
 
   </div>
-
+</div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
